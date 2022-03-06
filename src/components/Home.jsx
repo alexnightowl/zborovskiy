@@ -41,6 +41,7 @@ const Home = () => {
             <div className="cta">
                 <a href="#">посилання на конференцію</a>
             </div>
+            <small>Посилання стане активним за годину до промови!</small>
             <br/>
             <img src={bottomSeparator} alt=""/>
             <br/>
