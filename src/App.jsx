@@ -13,6 +13,7 @@ function App() {
                     <img width={275} src={logo} alt="logo"/>
                 </div>
                 <Routes>
+                    <Route path="/" element={<p>Вибачте, але здається ваше посилання пошкоджено, зверніться до організаторів... :(</p>}/>
                     <Route path="/:id" element={<Home/>}/>
                     <Route path="/:id/info" element={<Info/>}/>
                     <Route path="/info" element={<Info/>}/>
