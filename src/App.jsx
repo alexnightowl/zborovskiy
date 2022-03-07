@@ -19,9 +19,9 @@ function App() {
                     <Route path="/info" element={<Info/>}/>
                 </Routes>
                 <div className="footer">
-                    <a href="tel: 0671127000">0671129524 - Наречена</a>
+                    <a href="tel: 0671129524">0671129524 - Наречена</a>
                     <img width={22} src={couple} alt=""/>
-                    <a href="tel: 0968131000">Наречений - 0968131604</a>
+                    <a href="tel: 0968131604">Наречений - 0968131604</a>
                 </div>
             </div>
         </div>
