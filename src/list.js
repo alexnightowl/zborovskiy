@@ -319,7 +319,7 @@ const guestList = [
     },
     {
         id: "marnaya",
-        greeting: "Дорога",
+        greeting: "Дорогі",
         name: "Наташа і Таня",
         plural: true
     },
