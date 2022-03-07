@@ -39,9 +39,11 @@ const Home = () => {
             <img width={118} src={date} alt=""/>
             <br/>
             <div className="cta">
-                <a href="#">посилання на конференцію</a>
+                <a target="_blank" href="https://jworg.zoom.us/j/3331441914">посилання на конференцію</a>
             </div>
             <small>Посилання стане активним за годину до промови!</small>
+            <small><b>Пароль: 028043</b></small>
+
             <br/>
             <img src={bottomSeparator} alt=""/>
             <br/>

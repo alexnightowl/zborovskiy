@@ -3,904 +3,775 @@ const guestList = [
         id: "parents",
         greeting: "Дорогі",
         name: "Батьки",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "grandparents",
         greeting: "Дорогі",
         name: "Іларіон та Олександра",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "ankucavadim",
         greeting: "Дорогі",
         name: "Вадим та Наталія",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "ankucasergii",
         greeting: "Дорогі",
         name: "Сергій, Алла та Матвій",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "chibizov",
         greeting: "Дорогі",
         name: "Саша, Амалія та Арсіне",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "gomel",
         greeting: "Дорогі",
         name: "Леонід та Зіна",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "gomel1",
         greeting: "Дорогі",
         name: "Вадим та Софія",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "rodinnaann",
         greeting: "Дорогі",
         name: "Інна та Анна",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "rodenkovitalk",
         greeting: "Дорогі",
         name: "Віталій та Надія",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "statnik",
         greeting: "Дорогі",
         name: "Влад і Таня",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "yrsanviktor",
         greeting: "Дорогі",
         name: "Віктор та Ніна",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "yrsanj",
         greeting: "Дорогі",
         name: "Женя і Таня",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "yrsanvitalik",
         greeting: "Дорогі",
         name: "Віталій та Аня",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "yrsanigor",
         greeting: "Дорогі",
         name: "Ігор та Катя",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "kioce",
         greeting: "Дорога",
         name: "Рая",
-        plural: false,
-        female: true
+        plural: false
     },
     {
         id: "topfer",
         greeting: "Дорогі",
         name: "Руслан, Маргаріта та Аурелія",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "kiocevitalik",
         greeting: "Дорогі",
         name: "Віталій та Ауріка",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "oleshyk",
         greeting: "Дорогі",
-        name: "Володимир і Любов",
-        plural: true,
-        female: false
+        name: "Володимир і Любов ",
+        plural: true
     },
     {
         id: "kiligoi",
         greeting: "Дорогі",
         name: "Леонід та Ольга",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "vishavskii",
         greeting: "Дорога",
         name: "Сім'я Вічавських",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "yaremko",
         greeting: "Дорога",
         name: "Сім'я Яремків",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "yaremkoa",
         greeting: "Дорога",
         name: "Ангеліна",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "tukova",
         greeting: "Дорога",
         name: "Оля",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "torkolat",
         greeting: "Дорога",
         name: "Катя",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "falishtinskiy",
-        greeting: "Дорога",
+        greeting: "Дорогі",
         name: "Наталя та Саша",
-        plural: false,
-        female: false
+        plural: true
     },
     {
         id: "bezdetni",
         greeting: "Дорога",
         name: "Сім'я Бездітних",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "alesia",
         greeting: "Дорога",
         name: "Олеся",
-        plural: false,
-        female: true
+        plural: false
     },
     {
         id: "bubela",
         greeting: "Дорога",
         name: "Сім'я Бубела",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "izavova",
         greeting: "Дорога",
         name: "Сім'я Канте",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "liza",
         greeting: "Дорога",
         name: "Ліза та Іра",
-        plural: false,
-        female: true
+        plural: false
     },
     {
         id: "babenko",
         greeting: "Дорога",
         name: "Лєна",
-        plural: false,
-        female: true
+        plural: false
     },
     {
         id: "kante",
         greeting: "Дорога",
         name: "Наташа",
-        plural: false,
-        female: true
+        plural: false
     },
     {
         id: "lyngy",
         greeting: "Дорога",
-        name: "Сім'я Лунгу",
-        plural: true,
-        female: false
+        name: "Сім'я Лунгу ",
+        plural: true
     },
     {
         id: "drychina",
         greeting: "Дорогі",
         name: "Свєта і Дашка",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "pug",
         greeting: "Дорога",
         name: "Сім'я Пиж",
-        plural: false,
-        female: false
+        plural: true
     },
     {
         id: "tanya",
         greeting: "Дорогі",
         name: "Таня і Сабінка",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "margo",
         greeting: "Дорога",
         name: "Марго",
-        plural: false,
-        female: true
+        plural: false
     },
     {
         id: "drozd",
         greeting: "Дорога",
         name: "Сім'я Дрозд",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "zborovski",
         greeting: "Дорогі",
         name: "Сергій та Зіна",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "zborovski1",
         greeting: "Дорогі",
         name: "Андрій та Аня",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "batsa",
         greeting: "Дорогий",
         name: "Андрюха",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "batst",
         greeting: "Дорогий",
         name: "Толян",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "punzyr",
         greeting: "Дорогий",
         name: "Андрюха",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "kashpryk",
         greeting: "Дорогі",
         name: "Женя і Настя",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "yasinko",
         greeting: "Дорога",
         name: "Сім'я Ясінько",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "bernadskii",
         greeting: "Дорога",
-        name: "Сім'я Бернадських",
-        plural: true,
-        female: false
+        name: "Сім'я Бернадських ",
+        plural: true
     },
     {
         id: "bernadskiia",
         greeting: "Дорогий",
         name: "Андрюха",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "pedoryk",
         greeting: "Дорога",
         name: "Сім'я Педорук",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "kybovich",
         greeting: "Дорога",
         name: "Сім'я Кубовичів",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "zagarii",
         greeting: "Дорога",
         name: "Віка",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "torkolato",
         greeting: "Дорогий",
         name: "Олег",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "loskytov",
         greeting: "Дорога",
         name: "Сім'я Лоскутових",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "lazar",
         greeting: "Дорога",
         name: "Сім'я Лазарів",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "marnaya",
         greeting: "Дорога",
         name: "Наташа і Таня",
-        plural: false,
-        female: true
+        plural: true
     },
     {
         id: "bigdailena",
         greeting: "Дорога",
         name: "Лєнчик",
-        plural: false,
-        female: true
+        plural: false
     },
     {
         id: "bigbaiilla",
         greeting: "Дорогий",
         name: "Ілюха",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "kareyan",
         greeting: "Дорога",
         name: "Сім'я Кареян",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "ytish",
         greeting: "Дорога",
         name: "Сім'я Ютіш",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "kirgan",
         greeting: "Дорога",
         name: "Оксана Кирган",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "lypashko",
         greeting: "Дорога",
         name: "Сім'я Лупашко",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "chibizlida",
         greeting: "Дорога",
-        name: "Ліда Чібізова",
-        plural: false,
-        female: false
+        name: "Ліда ",
+        plural: false
     },
     {
         id: "kolesnik",
         greeting: "Дорогі",
         name: "Льоша і Лоліта",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "vladbrat",
         greeting: "Дорогий",
         name: "Владька",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "dorin",
         greeting: "Дорогі",
         name: "Дорін і Світлана",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "tolyalena",
         greeting: "Дорогі",
         name: "Толя і Лєна",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "dishlova",
         greeting: "Дорога",
-        name: "Інна",
-        plural: false,
-        female: true
+        name: "Інна ",
+        plural: false
     },
     {
         id: "dishlova1",
         greeting: "Дорога",
         name: "Іра",
-        plural: false,
-        female: true
+        plural: false
     },
     {
         id: "soldatov",
         greeting: "Дорога",
         name: "Сім'я Солдатових",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "chornoblavskii",
         greeting: "Дорога",
-        name: "Сім'я Чорноблавських",
-        plural: true,
-        female: false
+        name: "Сім'я Чорноблавських ",
+        plural: true
     },
     {
         id: "kaletnik",
         greeting: "Дорога",
-        name: "Сім'я Калетників",
-        plural: false,
-        female: false
+        name: "Сім'я Калетників ",
+        plural: true
     },
     {
         id: "tatevik",
         greeting: "Дорогі",
         name: "Євген і Татевік",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "dgalilova",
         greeting: "Дорога",
         name: "Сім'я Джалілових",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "ilona",
         greeting: "Дорога",
         name: "Ілона",
-        plural: false,
-        female: true
+        plural: false
     },
     {
         id: "sashadasha",
         greeting: "Дорогі",
         name: "Саша і Даша",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "bazulko",
         greeting: "Дорога",
         name: "Ірен",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "bernfamily",
         greeting: "Дорога",
-        name: "Сім'я Бернадських",
-        plural: true,
-        female: false
+        name: "Сім'я Бернадських ",
+        plural: true
     },
     {
         id: "tanasiychuk",
         greeting: "Дорогий",
         name: "Саньок",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "semenyk",
         greeting: "Дорогий",
         name: "Антон",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "kanonik",
         greeting: "Дорогий",
         name: "Вова",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "melnik",
         greeting: "Дорога",
         name: "Сім'я Мельник",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "zaharchenko",
         greeting: "Дорогий",
         name: "Саша",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "korotkevich",
         greeting: "Дорогий",
         name: "Діма",
-        plural: false,
-        female: false
+        plural: false
     },
     {
-        id: " stretovichlena",
+        id: "stretovichlena",
         greeting: "Дорога",
         name: "Лєна",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "kirichenko",
         greeting: "Дорогі",
         name: "Влад і Альона",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "dalykp",
         greeting: "Дорогий",
         name: "Паша",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "dalykv",
         greeting: "Дорогий",
         name: "Валєра",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "nikolaenko",
         greeting: "Дорога",
         name: "Віка",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "kovalsky",
         greeting: "Дорога",
         name: "Сім'я Ковальських",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "polishchuk",
         greeting: "Дорога",
         name: "Сім'я Поліщук",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "saidak",
         greeting: "Дорога",
         name: "Сім'я Сайдак",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "yarema",
         greeting: "Дорогий",
         name: "Костя",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "kubovichk",
         greeting: "Дорогі",
         name: "Костя та Катя",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "galibroda",
         greeting: "Дорога",
         name: "Діана",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "kovalchuk",
         greeting: "Дорогі",
         name: "Рома та Юля",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "yavorskiy",
         greeting: "Дорогий",
         name: "Вова",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "sypovich",
         greeting: "Дорогий",
         name: "Сірьога",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "popovich",
         greeting: "Дорогий",
         name: "Рома",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "chalova",
         greeting: "Дорога",
         name: "Оля",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "golyk",
         greeting: "Дорога",
         name: "Сім'я Голюк",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "kojygar",
         greeting: "Дорога",
         name: "Сім'я Кожухар",
-        plural: false,
-        female: false
+        plural: true
     },
     {
         id: "yakimtsev",
         greeting: "Дорогий",
         name: "Саша",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "bezdetnayaolya",
         greeting: "Дорога",
         name: "Оля",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "karpenko",
         greeting: "Дорога",
         name: "Сім'я Карпенко",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "kovalkatya",
         greeting: "Дорога",
         name: "Катя",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "peregonchuk",
         greeting: "Дорогий",
         name: "Сергій",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "terenv",
         greeting: "Дорогий",
         name: "Вадім",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "terena",
         greeting: "Дорогий",
         name: "Артур",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "chaikovsky",
         greeting: "Дорогий",
         name: "Сергій",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "olyabats",
         greeting: "Дорога",
         name: "Оля",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "levischeva",
         greeting: "Дорога",
         name: "Лєна",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "bukshtein",
         greeting: "Дорогий",
         name: "Вітя",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "horbenko",
         greeting: "Дорогий",
         name: "Вова",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "slyshak",
         greeting: "Дорогий",
         name: "Сергій",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "kardash",
         greeting: "Дорогий",
         name: "Вітя",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "lychushyn",
         greeting: "Дорога",
         name: "Сім'я Лучишиних",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "kasya",
         greeting: "Дорога",
         name: "Кася",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "himich",
         greeting: "Дорога",
         name: "Сім'я Хіміч",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "zdrenyk",
         greeting: "Дорога",
         name: "Сім'я Здреник",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "tkachenko",
         greeting: "Дорога",
         name: "Сім'я Ткаченко",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "schehelsky",
         greeting: "Дорога",
         name: "Сім'я Щегельських",
-        plural: false,
-        female: false
+        plural: true
     },
     {
         id: "katedanyluk",
         greeting: "Дорога",
         name: "Сім'я Данилюк",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "zurabovy",
         greeting: "Дорога",
         name: "Сім'я Зурабових",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "kushnir",
         greeting: "Дорога",
         name: "Сім'я Кушнір",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "nimchuk",
         greeting: "Дорога",
         name: "Сім'я Німчук",
-        plural: true,
-        female: false
+        plural: true
     },
     {
         id: "ilnitskaya",
         greeting: "Дорога",
         name: "Крістіна",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "lilyazv",
         greeting: "Дорога",
         name: "Ліля",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "nikazv",
         greeting: "Дорога",
         name: "Вероніка",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "senya",
         greeting: "Дорогий",
         name: "Арсеній",
-        plural: false,
-        female: false
+        plural: false
     },
     {
         id: "filya",
         greeting: "Дорогий",
         name: "Філіп",
-        plural: false,
-        female: false
+        plural: false
     }
 ]
 
